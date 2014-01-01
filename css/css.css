@@ -66,13 +66,13 @@ td {
 
 /*fixar en bakgrund*/
 #container {
-	background: url(pics/portfolio.jpg);
+	background: url(pics/portfolio.PNG);
 	overflow: hidden;
-	width: 1600px;
-	max-height: 900px;
+	width: auto;
+	height:auto;
 	
 	margin:0 auto;
-	border-radius:20px;
+	
 	
 	border: groove 6px #666666;
 	
@@ -98,7 +98,7 @@ h1	{
 
 #content {
 	background-color: rgba(500,500,500,0.6);
-	width:1500px;
+	width:1800px;
 	height: 800px;
 	max-height:800px;
 	color:#FFFFFF;
@@ -107,7 +107,7 @@ h1	{
 	border-radius:20px;
 	margin-top: 30px;
 	margin-bottom:30px;
-	
+	border:2px solid white;
 	
 	}
 	
@@ -127,6 +127,7 @@ h1	{
 	margin-bottom:30px;
 	border-radius:20px;
 	
+	
 	}
 
 /* gjort en pil för att komma till start sidan av min portfolio*/
@@ -144,20 +145,79 @@ position:fixed;
 }
 
 
-#topgame {
-	max-height:300px;
-	max-width:300px;
-	margin-left:100px;
-	margin-top:100px;
-	border:solid 10px #FFF;
-	border-radius:10px;
+.arrow-down:hover {
+	width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 173.2px 100px 0 100px;
+border-color: #000 transparent transparent transparent;
+position:fixed;
+	top: 150px;
+	left:900px;
 	
 	}
 
-#footer {
+
+
+.arrow-back {
+	width: 0; 
+	height: 0; 
+	border-style: solid;
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent; 
+	
+	border-right:40px solid rgba(50,50,50,0.6);
+	
+	margin-top: 5px;
+	margin-left:700px;
+}
+
+.arrow-back:hover {
+	width: 0; 
+	height: 0; 
+	border-style: solid;
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent; 
+	
+	border-right:40px solid  #000;
+	
+	margin-top: 5px;
+	margin-left:700px;
+	
+	}
+
+
+.port {
+	margin-top: 150px;
+	margin-left:150px;
+	width:  500px;
+    height: 360px;
+    display: block;
+	background-image:url(pics/hover.png);
+	background-position:500px 0;
+}
+
+.port:hover {
+	background-position:-10px 0;
+	}
 	
 
-}
+	
+#spel {
+	width:100%;
+	
+	}
+	
+#spel1 {
+	margin-left:500px;
+	width:400px;
+	height:600px;
+	
+	
+	margin-top:70px;
+	overflow:hidden;
+	
+	}
 
 
 
