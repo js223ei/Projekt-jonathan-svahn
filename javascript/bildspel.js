@@ -4,12 +4,12 @@
 	console.log("hjej");
 	
 	
-	var bilder = ['../css/pics/me.PNG', '../css/pics/hemsida.PNG', '../css/pics/TopGame.PNG' ]
+	var bilder = ['../css/pics/photo.PNG', '../css/pics/illu.PNG', '../css/pics/3d.PNG' ]
 	
 	var counter = 0;
 	
 	setInterval (function() {changeimage()},3000);
-	function changeimage(){var image = document.querySelector("#spel");
+	function changeimage(){var image = document.querySelector("#me");
 	image.setAttribute('src', bilder[counter]);
 	counter ++;
 	if (counter > 2){
